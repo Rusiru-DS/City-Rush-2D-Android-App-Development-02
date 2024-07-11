@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backpic"
+    android:id="@+id/rootLayout"
+    android:gravity="center"
+
+    tools:context=".MainActivity">
+    
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Start"
+        app:backgroundTint="#830F36" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#187C1B"
+        android:text="Restart"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnMapSelect"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Map Select" />
+
+</LinearLayout>
